@@ -15,6 +15,10 @@ class CreateTblAdmins extends Migration
     {
         Schema::create('tbl_admins', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name',255)->nullable();
+            $table->string('email',255)->unique();
+            $table->string('password',255)->nullable();
+            $table->integer('status')->default(1);
             $table->timestamps();
         });
     }

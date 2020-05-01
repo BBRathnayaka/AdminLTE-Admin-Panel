@@ -15,6 +15,8 @@ class CreateTblGenders extends Migration
     {
         Schema::create('tbl_genders', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('type',20)->nullable();
+            $table->integer('status')->default(1);
             $table->timestamps();
         });
     }

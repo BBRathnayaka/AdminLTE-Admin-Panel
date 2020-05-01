@@ -15,6 +15,17 @@ class CreateTblStudents extends Migration
     {
         Schema::create('tbl_students', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('reg_no',20)->nullable();
+            $table->integer('gender_id')->nullable();
+            $table->string('name',255)->nullable();
+            $table->string('email',255)->nullable();
+            $table->integer('roll_no')->nullable();
+            $table->string('phone_no',50)->nullable();
+            $table->text('address')->nullable();
+            $table->string('profile_photo',350)->nullable();
+            $table->string('gurdian_name',250)->nullable();
+            $table->integer('age')->default(1);
+            $table->integer('status')->default(1);
             $table->timestamps();
         });
     }
