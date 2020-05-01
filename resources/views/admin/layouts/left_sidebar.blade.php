@@ -3,7 +3,7 @@
     <a href="index3.html" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">BBR</span>
     </a>
 
     <!-- Sidebar -->
@@ -23,35 +23,115 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
+
+           <!-- Dashboard -->    
+           <li class="nav-item">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p class="text">Dashboard</p>
+            </a>
+          </li>
+
+          <!-- Classes -->
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link"> 
+              <i class="nav-icon fas fa-list"></i>
               <p>
-                Dashboard
+                Class
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon text-warning"></i>
+                  <p>Add Sections</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
+                  <i class="far fa-circle nav-icon text-info"></i>
+                  <p>List Sections</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index3.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
+                  <p>Add Class </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>List Classes </p>
                 </a>
               </li>
             </ul>
           </li>
+
+          <!-- Faculty -->
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link"> 
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                Faculty
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon text-warning"></i>
+                  <p>Add Types</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index2.html" class="nav-link">
+                  <i class="far fa-circle nav-icon text-info"></i>
+                  <p>List Types</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add Faculty </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>List Faculty </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- Students -->
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link"> 
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                Students
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon text-warning"></i>
+                  <p>Add Students</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index2.html" class="nav-link">
+                  <i class="far fa-circle nav-icon text-info"></i>
+                  <p>List Students</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+        <!--           
           <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -529,12 +609,7 @@
             </a>
           </li>
           <li class="nav-header">LABELS</li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-circle text-danger"></i>
-              <p class="text">Important</p>
-            </a>
-          </li>
+
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-warning"></i>
@@ -547,6 +622,8 @@
               <p>Informational</p>
             </a>
           </li>
+        -->
+        
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
