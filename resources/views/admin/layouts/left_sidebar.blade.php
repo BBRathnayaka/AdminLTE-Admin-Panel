@@ -43,25 +43,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="{{route('addClassSection')}}" class="nav-link">
                   <i class="far fa-circle nav-icon text-warning"></i>
                   <p>Add Sections</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="{{route('listClassSection')}}" class="nav-link">
                   <i class="far fa-circle nav-icon text-info"></i>
                   <p>List Sections</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="{{route('addSchoolClass')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Class </p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="{{route('listSchoolClass')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>List Classes </p>
                 </a>
@@ -72,7 +72,7 @@
           <!-- Faculty -->
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link"> 
-              <i class="nav-icon fas fa-users"></i>
+              <i class="nav-icon fas fa-briefcase"></i>
               <p>
                 Faculty
                 <i class="right fas fa-angle-left"></i>
@@ -80,25 +80,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="{{route('addFacultyType')}}" class="nav-link">
                   <i class="far fa-circle nav-icon text-warning"></i>
                   <p>Add Types</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="{{route('listFacultyType')}}" class="nav-link">
                   <i class="far fa-circle nav-icon text-info"></i>
                   <p>List Types</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="{{route('addFaculty')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Faculty </p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="{{route('listFaculty')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>List Faculty </p>
                 </a>
@@ -117,13 +117,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="{{route('addStudents')}}" class="nav-link">
                   <i class="far fa-circle nav-icon text-warning"></i>
                   <p>Add Students</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="{{route('listStudents')}}" class="nav-link">
                   <i class="far fa-circle nav-icon text-info"></i>
                   <p>List Students</p>
                 </a>
