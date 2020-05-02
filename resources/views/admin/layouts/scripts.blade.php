@@ -33,3 +33,8 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+
+<script src="{!! asset('assets/js/custom-script.js')!!}"></script>
+<script src="{!! asset('assets/js/jquery.dataTables.min.js')!!}"></script>
+<script src="{!! asset('assets/js/jquery.validate.js')!!}"></script>
+<script src="{!! asset('assets/js/sweetalert.js')!!}"></script>

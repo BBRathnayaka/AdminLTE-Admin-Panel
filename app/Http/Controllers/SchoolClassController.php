@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class SchoolClassController extends Controller
 {
     public function addSchoolClass(){
-        echo "addSchoolClass";
+        return view("admin.views.add_class");
     }
     public function listSchoolClass(){
         echo "listSchoolClass";

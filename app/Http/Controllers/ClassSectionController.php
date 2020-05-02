@@ -9,7 +9,7 @@ class ClassSectionController extends Controller
 {
    public function addSchoolSection()
    {
-       echo "Welcome to addSchoolSection";
+       return view("admin.views.add_section");
    }
 
    public function listSchoolSection()
