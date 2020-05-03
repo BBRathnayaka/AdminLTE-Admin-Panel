@@ -1,6 +1,6 @@
 @extends("admin.layouts.layout")
 
-@section("title","Admin Dashboard | BBR")
+@section("title","Admin Dashboard :: BBR")
 
 @section("content")
  
@@ -47,7 +47,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>0<sup style="font-size: 20px">%</sup></h3>
+                <h3>0</h3>
 
                 <p>Total Classes</p>
               </div>
