@@ -9,7 +9,7 @@ class StudentController extends Controller
 {
     public function addStudents()
     {
-        echo "Welcome to addStudents";
+        return view("admin.views.add_students");
     }
     public function listStudents()
     {
