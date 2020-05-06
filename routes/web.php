@@ -14,8 +14,10 @@
 Route::get('/', "AdminHomeController@dashboard");
 
 //Classes Routes
-Route::get("/add-section", "ClassSectionController@addSchoolSection")->name("addClassSection");
+Route::get("/add-section", "ClassSectionController@addSchoolSection")->name("addClassSection");;
 Route::get('/list-section', "ClassSectionController@listSchoolSection")->name("listClassSection");;
+Route::get('/list-sections-data', "ClassSectionController@listAllSection")->name("listallsection");;
+
 Route::get('/add-class', "SchoolClassController@addSchoolClass")->name("addSchoolClass");;
 Route::get('/list-class', "SchoolClassController@listSchoolClass")->name("listSchoolClass");;
 
